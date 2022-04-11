@@ -1,5 +1,3 @@
-import Handsontable from "handsontable";
-
 const addClassWhenNeeded = (td, cellProperties) => {
   const className = cellProperties.className;
 

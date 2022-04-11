@@ -1,16 +1,11 @@
-import Handsontable from "handsontable";
-import "handsontable/dist/handsontable.min.css";
-import "pikaday/css/pikaday.css";
-
-import { data } from "./constants";
-import { progressBarRenderer, starRenderer } from "./customRenderers";
-import "./styles.css";
+import { data } from "./constants.js";
+import { progressBarRenderer, starRenderer } from "./customRenderers.js";
 
 import {
   alignHeaders,
   addClassesToRows,
   changeCheckboxCell
-} from "./hooksCallbacks";
+} from "./hooksCallbacks.js";
 
 const example = document.getElementById("example");
 
